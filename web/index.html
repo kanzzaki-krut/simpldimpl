@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>External Exposure Monitor</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Arial, sans-serif;
+        margin: 2rem;
+        color: #1f2937;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .status {
+        background: #eff6ff;
+        color: #1d4ed8;
+        padding: 0.3rem 0.75rem;
+        border-radius: 999px;
+        font-size: 0.85rem;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+        margin-top: 2rem;
+      }
+      .card {
+        border: 1px solid #e5e7eb;
+        border-radius: 12px;
+        padding: 1rem;
+        background: #ffffff;
+      }
+      .card h3 {
+        margin: 0 0 0.5rem 0;
+      }
+      .muted {
+        color: #6b7280;
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>External Exposure Monitor</h1>
+        <p class="muted">Continuous visibility into internet-facing assets.</p>
+      </div>
+      <span class="status">MVP demo</span>
+    </header>
+
+    <section class="grid">
+      <article class="card">
+        <h3>Asset Inventory</h3>
+        <p class="muted">Track domains, subdomains, and IP mappings.</p>
+      </article>
+      <article class="card">
+        <h3>Exposure Risk</h3>
+        <p class="muted">Prioritize high-impact services and shadow IT.</p>
+      </article>
+      <article class="card">
+        <h3>Ownership Map</h3>
+        <p class="muted">Align services to internal teams with evidence.</p>
+      </article>
+    </section>
+  </body>
+</html>
